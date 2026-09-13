@@ -37,12 +37,9 @@ native/windows-registry/bin/
 package-lock.json
 
 # Environment
-.env
-.env.local
 .env.*.local
 
 # IDE
-.vscode/
 .idea/
 .serena/
 *.swp
@@ -180,3 +177,7 @@ tests/e2e/.cross-version-checkouts/
 # IS committed). Also keeps oxfmt/oxlint, which honor this file, from walking
 # vendored gems.
 /mobile/vendor/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat

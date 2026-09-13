@@ -8,8 +8,8 @@
     "pnpm": ">=10"
   },
   "scripts": {
-    "build": "pnpm -r build",
-    "dev": "pnpm --filter @orca-cloud/relay dev",
+    "build": "node init && pnpm -r build",
+    "dev": "node init && pnpm --filter @orca-cloud/relay dev",
     "incident:relay": "pnpm --filter @orca-cloud/relay-ops incident:monitor",
     "incident:relay-preflight": "pnpm --filter @orca-cloud/relay-ops incident:preflight",
     "infra:apply": "node dev/scripts/infra.mjs apply",
