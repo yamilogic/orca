@@ -4,9 +4,9 @@
   "private": true,
   "description": "Open-source Orca product documentation site (https://www.onorca.dev/docs)",
   "scripts": {
-    "dev": "next dev --port 3004",
-    "build": "next build",
-    "start": "next start --port 3004",
+    "dev": "node init && next dev --port 3004",
+    "build": "node init && next build",
+    "start": "node init && next start --port 3004",
     "lint": "eslint",
     "test": "node --test tests/*.test.mjs",
     "postinstall": "fumadocs-mdx",

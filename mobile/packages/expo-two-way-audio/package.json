@@ -23,9 +23,9 @@
   "main": "src/index.ts",
   "types": "src/index.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "clean": "expo-module clean",
-    "dev": "expo-module build",
+    "dev": "node init && expo-module build",
     "lint": "expo-module lint",
     "test": "expo-module test",
     "format": "oxfmt --check .",
