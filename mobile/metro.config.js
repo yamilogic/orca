@@ -10,4 +10,4 @@ const config = getDefaultConfig(projectRoot)
 // Metro only watches mobile/ by default, so make repo-root shared modules visible.
 config.watchFolders = Array.from(new Set([...(config.watchFolders ?? []), sharedRoot]))
 
-module.exports = config
+module.exports = config;
